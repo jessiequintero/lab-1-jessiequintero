@@ -29,8 +29,10 @@ class UserManager:
 if __name__ == "__main__":
     user_manager = UserManager()
 
+    '''
     for i in range (1000):
         user_manager.add_user(i,f"Yo soy el num: {i}")
+    '''
 
     #print(user_manager.find_user(2))
 
@@ -54,7 +56,14 @@ if __name__ == "__main__":
     '''
 
     #RF7
+    '''
     print(user_manager.delete_user(1001))
+    '''
+
+    #RF8
+    print(user_manager.average_user_id())
+
+    
     print("end")
 
 
