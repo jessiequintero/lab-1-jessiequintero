@@ -30,7 +30,7 @@ if __name__ == "__main__":
     user_manager = UserManager()
 
 
-    for i in range (5):
+    for i in range (70):
         user_manager.add_user(i,f"Yo soy el num: {i}")
 
     #print(user_manager.find_user(2))
@@ -63,9 +63,15 @@ if __name__ == "__main__":
     #print(user_manager.average_user_id())
 
     #RF9
-    user_manager.add_user(2,f"Yo soy el num: 2!")
-    print(user_manager.find_user(2))
+    user_manager.add_user(35,f"Yo soy el num: 35!")
+    print(user_manager.find_user(35))
     print(user_manager.get_all_names())
+
+    #RF10
+    print(user_manager.find_user(35))
+    user_manager.delete_user(35)
+    print(user_manager.get_all_names())
+
     
     print("end")
     
