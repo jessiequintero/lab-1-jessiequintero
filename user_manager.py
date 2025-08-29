@@ -29,7 +29,7 @@ class UserManager:
 if __name__ == "__main__":
     user_manager = UserManager()
 
-    for i in range (4):
+    for i in range (1000):
         user_manager.add_user(i,f"Yo soy el num: {i}")
 
     #print(user_manager.find_user(2))
@@ -43,7 +43,14 @@ if __name__ == "__main__":
     #print(user_manager.get_all_names())
 
     #RF5
-    print(user_manager.average_user_id())
+    #print(user_manager.average_user_id())
+
+    #RF6
+    start = time.time()
+    print(user_manager.find_user(500))
+    end = time.time()
+    print(f"Tardó {end - start} segundos")
+
 
     print("end")
 
