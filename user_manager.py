@@ -46,12 +46,15 @@ if __name__ == "__main__":
     #print(user_manager.average_user_id())
 
     #RF6
+    '''
     start = time.time()
     print(user_manager.find_user(500))
     end = time.time()
     print(f"Tardó {end - start} segundos")
+    '''
 
-
+    #RF7
+    print(user_manager.delete_user(1001))
     print("end")
 
 
