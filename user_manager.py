@@ -34,9 +34,14 @@ if __name__ == "__main__":
 
     #print(user_manager.find_user(2))
 
+    ''''
     user_manager.delete_user(3)
     print(user_manager.find_user(3))
-    
+    '''
+
+    #RF4
+    print(user_manager.get_all_names())
+
     print("end")
 
 
